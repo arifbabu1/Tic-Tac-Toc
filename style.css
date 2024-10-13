@@ -1,49 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-
+.rock{
+    background: yellow;
 }
-
-body{
-    background-color: #548687;
-    text-align: center;
+.paper{
+    background: red;
 }
-
-.container{
-    height: 70vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-color: aqua; */
-}
-.game{
-    height: 60vmin;
-    width: 60vmin;
-    /* background-color: rgb(126, 153, 176); */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1.5vmin;
+.sissors{
+    background: green;
 } 
-.box{
-    height: 18vmin;
-    width: 18vmin;
-    border-radius: 3vmin;
-    border: none;
-    box-shadow: black 1px 1px 7px;
-    background-color: rgb(112, 214, 255);
-    font-size: 8vmin;
-}
-
-
-.newGame{
-    font-size: 25px;
-    padding: 8px 10px;
-    border-radius: 10px;
-    border: none;
-    box-shadow: rgba(255, 7, 7, 0.73) 0px 2px 5px;
-    background-color: rgba(0, 0, 0, 0.982);
-    color: white;
-
-}
